@@ -30,5 +30,5 @@ DHH가 TDD를 죽여서 TDD를 대신할 방법을 찾아야 한다는 글인데
 
 *나는 이 모든 문제를 해결할 다른 방법을 찾을 수 있을 것이라 확신합니다. 때가 오면. 고통이 사라질 것입니다. 잘 가 오랜 친구 TDD.*
 
-<span id='comment-1'>*</span> sense-of-test<br />
-<span id='comment-2'>**</span> Feeling overwhelmed
+<em><span id='comment-1'>*</span> sense-of-test</em><br />
+<em><span id='comment-2'>**</span> Feeling overwhelmed</em>
