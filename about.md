@@ -10,6 +10,16 @@ permalink: /about/
 
 ---
 
+### HP 강의
+
+{{ "2019-11-15" | date: date_format }}
+
+#### 강의 - 설계와 테스트 주도 개발
+
+좋은 설계와 테스트 주도 개발의 효과 및 관계를 설명하고 참석자들의 경험에 기반해 논의한다.
+
+---
+
 ### TAEYO.NET + ASP.NET Korea 세미나
 
 {{ "2018-10-27" | date: date_format }}
