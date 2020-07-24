@@ -83,3 +83,7 @@ function ImpureFunctionComponent() {
 결론짓자면 함수 컴포넌트는 참조 투명할 수도, 아닐 수도 있기 때문에 '함수형' 수식어를 붙이는 건 오해를 일으킬 수 있다. 아마 그래서 React는 'functional component' 대신 'function component'라고 이름 지었을 것이다. 함수 컴포넌트를 함수형 컴포넌트라고 부르는 사람들은 최소한 부주의하고 무책임하거나 아마도 자신이 다루는 기술을 충분히 이해하지 못하고 있는 것이다.
 
 내가 React를 공부한 것은 채 한달도 되지 않았기 때문에 오래전 언젠가는 공식 사이트 조차 잘 못 표현하고 있었는지도 모르겠다. 안타깝지만 나에게 그런 과거까지 조사할 열정 따위 없다.
+
+> 과거엔 공식 사이트에서도 'functional component'라고 불렸지만 나 같이 까칠한 사람 때문에 'function component'라고 변경되었다는 사실을 알아본 한 열정 넘치는 분의 제보가 있었다. 그 열정 진심으로 부럽다.
+> - [https://github.com/reactjs/reactjs.org/pull/863](https://github.com/reactjs/reactjs.org/pull/863)
+> - [https://mobile.twitter.com/getify/status/993127777057550336](https://github.com/reactjs/reactjs.org/pull/863)
