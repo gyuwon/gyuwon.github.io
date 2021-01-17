@@ -65,7 +65,7 @@ TDD는 테스트 기법이 아니라 코드를 작성하는 과정이다. TDD를
 
 다양하고 복잡한 비즈니스 환경을 만족시키기 위해 시스템을 설계하는 과정과 결과를 소개한다. 가상 머신과 관계형 데이터베이스에 기반한 획일적인 아키텍처를 벗어나 Azure가 제공하는 여러 제품들을 사용한 도메인 요구사항 중심의 설계를 살펴볼 수 있다.
 
-[슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgf08Xm9jNbIcAbFwKw)
+[슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgosG_OoaGRa5UAqCow)
 
 #### 발표 - VSTS와 Azure를 이용한 팀 프로세스 관리
 
