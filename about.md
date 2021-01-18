@@ -10,6 +10,19 @@ permalink: /about/
 
 ---
 
+### .NET Conf 2021 x Seoul
+
+{{ "2021-01-15" | date: date_format }}
+
+#### 발표 - 당김 기반 비동기 스트림 IAsyncEnumerable&#x3C;T&#x3E;
+
+`IAsyncEnumerable<T>` 인터페이스를 포함해 C#에서 사용할 수 있는 다양한 데이터 처리 패턴을 소개한다.
+
+[영상](https://youtu.be/cs2qsnbYFUc)
+[슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgp4AeCkobj9qzPIpdw)
+
+---
+
 ### HP 강의
 
 {{ "2019-11-15" | date: date_format }}
