@@ -8,6 +8,10 @@ permalink: /about/
 
 ## 활동
 
+### 패스트캠퍼스 the RED 강의
+
+[현실 세상의 TDD: 안정감을 주는 코드 작성 방법](https://www.fastcampus.co.kr/dev_red_ygw)
+
 ---
 
 ### .NET Conf 2021 x Seoul
