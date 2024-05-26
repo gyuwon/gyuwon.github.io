@@ -14,6 +14,18 @@ permalink: /about/
 
 ---
 
+### Spring Camp 2024
+
+{{ "2024-05-25" | date: date_format }}
+
+#### 발표 - AutoParams를 사용한 Spring Boot 응용프로그램 테스트 
+
+테스트 데이터 생성 도구 [AutoParams](https://github.com/AutoParams/AutoParams)를 Spring Boot 응용프로그램 테스트에 사용하는 방법을 소개한다.
+
+[슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgsdKpHQOVTm39KXkug)
+
+---
+
 ### .NET Conf 2021 x Seoul
 
 {{ "2021-01-15" | date: date_format }}
@@ -24,16 +36,6 @@ permalink: /about/
 
 [영상](https://youtu.be/cs2qsnbYFUc)
 [슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgp4AeCkobj9qzPIpdw)
-
----
-
-### HP 강의
-
-{{ "2019-11-15" | date: date_format }}
-
-#### 강의 - 설계와 테스트 주도 개발
-
-좋은 설계와 테스트 주도 개발의 효과 및 관계를 설명하고 참석자들의 경험에 기반해 논의한다.
 
 ---
 
@@ -125,7 +127,6 @@ Visual Studio Team Services와 Azure를 사용해 계획, 코딩, 테스트, 빌
 
 envicase 기술팀은 서비스의 iOS 클라이언트 응용프로그램을 개발하면서 여러 뷰에서 보여지는 동일한 컨텐트의 상태를 동기화하기 위한 단순하고 효율적인 방법을 고민했고 그 결과로 Rx(Reactive Extensions)와 MVVM(Model View ViewModel) 아키텍처 패턴을 결합한 새로운 아키텍처를 고안했다. envicase 기술팀은 이 아키텍처를 Reactive-MVVM 아키텍처라고 부른다.
 
-[영상](https://channel9.msdn.com/Events/TechDays/TDK2015/T3-6)
 [슬라이드](https://1drv.ms/p/s!ArHM66R5MeWxgcYgcuawN20s5Q0sJg)
 
 ---
