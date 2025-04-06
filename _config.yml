@@ -13,4 +13,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - index.md
+  - autoparams.html
+  - about.md
+
 google_analytics: UA-135516945-1
