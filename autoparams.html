@@ -11,10 +11,15 @@ permalink: /autoparams/
   </a>
 </div>
 
-<ul>
+<div class="post-list">
   {% for post in site.categories.AutoParams %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+      {{ post.excerpt | strip_html}}
     </li>
   {% endfor %}
-</ul>
+</div>
