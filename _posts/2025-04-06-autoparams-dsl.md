@@ -9,7 +9,7 @@ AutoParams의 [10.0.0 버전 릴리스](https://github.com/AutoParams/AutoParams
 
 <!--more-->
 
-## `ObjectGenerator` 인터페이스 구현을 통한 매개변수 인자 고정
+### ObjectGenerator 인터페이스 구현을 통한 매개변수 인자 고정
 
 예를 들어 `Product` 클래스와 `Review` 클래스가 있다고 해보자. `Product`는 상품 정보를 나타내고, `Review`는 특정 상품에 대한 사용자의 평가를 나타낸다. `Review` 클래스는 내부에 `Product`를 포함한다.
 
@@ -105,7 +105,7 @@ void testMethod(Product product, @Max(5) int rating, ResolutionContext context) 
 
 이렇게 하면 원하는 동작을 수행하지만, 매개변수 하나를 고정하기 위해 `ObjectGenerator` 구현체를 매번 만들고 조건을 검사하는 코드를 반복해야 한다. 테스트에서 "이 값을 고정하고 싶다"는 단순한 의도를 표현하기에 다소 과한 구조일 수 있다.
 
-## DSL을 사용한 매개변수 인자 고정
+### DSL을 사용한 매개변수 인자 고정
 
 하지만 이번에 추가된 DSL을 사용하면 같은 목적을 간단하게 달성할 수 있다.
 
@@ -127,7 +127,7 @@ void testMethod(Product product, @Max(5) int rating, ResolutionContext context) 
 
 `ArgumentCustomizationDsl` 클래스의 `freezeArgument` 정적 메서드로 시작하는 관용구 코드는 매개변수 이름을 기준으로 인자를 고정한다. `ObjectGenerator`를 직접 구현할 필요 없이, 단순하고 선언적인 코드만으로 같은 효과를 낼 수 있다. 코드가 간결해질 뿐 아니라, 테스트의 의도가 더 명확하게 드러난다.
 
-## DSL 도입의 의미
+### DSL 도입의 의미
 
 테스트에서 매개변수를 고정하는 이유는 분명하다. 특정 값을 사용한 상태에서 시스템의 동작을 확인하고 싶은 것이다. 10.0.0 버전 이전에는 AutoParams를 사용해서 이 요구를 구현하는 데 적지 않은 준비가 필요했다. `autoparams.customization.dsl` 패키지는 그런 부담을 없애준다. 매개변수 하나를 고정하기 위해서 `ObjectGenerator` 구현체를 새로 만들 필요가 없다. 테스트는 더 간결하고, 더 설명적이며, 더 읽기 쉬워진다.
 
