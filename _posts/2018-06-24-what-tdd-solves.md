@@ -3,6 +3,9 @@ layout: post
 title:  TDD가 해결해 주는 것들
 date:   2018-06-24 11:04:00 +0900
 categories: blog
+permalink: /blog/what-tdd-solves/
+redirect_from:
+  - /blog/2018/06/24/what-tdd-solves.html
 ---
 
 2014년에 DHH는 'TDD is dead. Long live testing.'이라는, 제목이 아니라 내용이, 다소 황당한 글을 썼고 얼마 후 Kent Beck은 관련된 글을 썼다.

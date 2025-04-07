@@ -3,6 +3,9 @@ layout: post
 title:  MV* 패턴에서 모델이란 무엇인가
 date:   2019-12-15 20:00:00 +0900
 categories: blog
+permalink: /blog/what-is-model-in-mvw/
+redirect_from:
+  - /blog/2019/12/15/what-is-model-in-mvw.html
 ---
 
 두괄식으로 결론부터 제시한다.

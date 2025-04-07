@@ -3,6 +3,9 @@ layout: post
 title:  이벤트 소싱의 본질
 date:   2020-06-23 23:00:00 +0900
 categories: blog
+permalink: /blog/essence-of-event-sourcing/
+redirect_from:
+  - /blog/2020/06/23/essence-of-event-sourcing.html
 ---
 
 이벤트 소싱은 그렇게 어렵지 않다. 이벤트 소싱 패턴은 명령 패턴, CQRS, EDA, DDD 등과 자주 함께 설명되지만 그것들은 이벤트 소싱과 조합될 수 있는 설계 도구일 뿐 이벤트 소싱의 핵심이 아니다. 이벤트 소싱의 본질은 함수형 데이터 기록과 복원이다. 이벤트 소싱을 사용하는 시스템은 과거의 이벤트에 기반해 입력을 새로운 이벤트로 변환한다. 시스템의 이벤트 스트림을 만들어가는 과정이 이벤트 소싱의 정수다.

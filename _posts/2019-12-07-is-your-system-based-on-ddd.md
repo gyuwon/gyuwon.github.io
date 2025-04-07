@@ -3,6 +3,9 @@ layout: post
 title:  당신의 시스템은 도메인 주도 설계에 기반하는가
 date:   2019-12-07 17:00:00 +0900
 categories: blog
+permalink: /blog/is-your-system-based-on-ddd/
+redirect_from:
+  - /blog/2019/12/07/is-your-system-based-on-ddd.html
 ---
 
 > 당신의 시스템은 도메인 주도 설계에 기반하는가?

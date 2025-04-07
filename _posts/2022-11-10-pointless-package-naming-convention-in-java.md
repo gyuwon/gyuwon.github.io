@@ -3,6 +3,9 @@ layout: post
 title: 쓸모없는 Java 패키지 이름 관습
 date: 2022-11-10 00:00:00 +0900
 categories: blog
+permalink: /blog/pointless-package-naming-convention-in-java/
+redirect_from:
+  - /blog/2022/11/09/pointless-package-naming-convention-in-java.html
 ---
 
 Oracle은 [이 페이지](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html)에서 다음과 같이 패키지 이름 관습을 제안한다.

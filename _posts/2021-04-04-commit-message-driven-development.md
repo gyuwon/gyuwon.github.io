@@ -3,6 +3,9 @@ layout: post
 title: 커밋 메시지 주도 개발
 date: 2021-04-04 14:00:00 +0900
 categories: blog
+permalink: /blog/commit-message-driven-development/
+redirect_from:
+  - /blog/2021/04/04/commit-message-driven-development.html
 ---
 
 나는 자신이 없는 코딩을 할 수록 계획을 작게 나눈다. 작은 계획을 실천하도록 사용하는 도구 중 한가지는 코드를 쓰기 전에 내가 어떤 코드를 쓸 지 커밋 메시지를 먼저 작성하는 것이다. 누군가에게 이 기법을 소개할 때에 '커밋 메시지 주도 개발'이란 표현을 쓴다.

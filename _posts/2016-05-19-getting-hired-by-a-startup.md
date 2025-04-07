@@ -3,6 +3,9 @@ layout: post
 title:  스타트업에 취업하기
 date:   2016-05-19 11:43:00 +0900
 categories: blog
+permalink: /blog/getting-hired-by-a-startup/
+redirect_from:
+  - /blog/2016/05/19/getting-hired-by-a-startup.html
 ---
 
 박재성님의 <a href="https://www.slipp.net/questions/433">'최근 구직, 구인 글을 보면서 느끼는 단상'</a>이란 글을 읽었는데 무척이나 공감했다. 특히 다음 구절에서 생각나는 일화가 있어서 적어본다.

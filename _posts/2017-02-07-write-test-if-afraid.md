@@ -3,6 +3,9 @@ layout: post
 title:  두렵다면 테스트를 작성하라
 date:   2017-02-07 01:11:00 +0900
 categories: blog
+permalink: /blog/write-test-if-afraid/
+redirect_from:
+  - /blog/2017/02/06/write-test-if-afraid.html
 ---
 
 얼마전 다음과 같은 코드에 매개변수 `param`에 대한 `null` 여부 검사가 필요한지 의견을 묻는 글을 발견했다.

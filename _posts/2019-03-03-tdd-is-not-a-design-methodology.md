@@ -3,6 +3,9 @@ layout: post
 title:  TDD는 설계 방법론이 아니다
 date:   2019-03-03 13:00:00 +0900
 categories: blog
+permalink: /blog/tdd-is-not-a-design-methodology/
+redirect_from:
+  - /blog/2019/03/03/tdd-is-not-a-design-methodology.html
 ---
 
 소셜 미디어에서 국내 저자의 어떤 서적에서 발췌했다는 다음 문장을 발견했다.

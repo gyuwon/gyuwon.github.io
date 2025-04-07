@@ -3,6 +3,9 @@ layout: post
 title:  소프트웨어 테스팅의 False Positive
 date:   2018-12-20 01:52:00 +0900
 categories: blog
+permalink: /blog/false-positive-in-software-testing/
+redirect_from:
+  - /blog/2018/12/19/false-positive-in-software-testing.html
 ---
 
 False Positive는 이진 분류(binary classification) 실험 오류 중 하나로 통계 실험에서는 1종 오류(Type I Error)라고도 부르며 소프트웨어 테스팅에서도 쓰이는 용어다. 하지만 이진 분류와 통계 실험에 대한 배경지식이 없는 경우 소프트웨어 테스팅의 False Positive는 본래의 뜻과 반대의 의미로 잘 못 사용되곤 한다. 언어가 잘 못 사용되면 당연히 의사소통 장애로 이어진다.

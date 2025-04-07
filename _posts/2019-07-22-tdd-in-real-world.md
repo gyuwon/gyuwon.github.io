@@ -3,6 +3,9 @@ layout: post
 title:  현실 세상의 TDD
 date:   2019-07-22 21:20:00 +0900
 categories: blog
+permalink: /blog/tdd-in-real-world/
+redirect_from:
+  - /blog/2019/07/22/tdd-in-real-world.html
 ---
 
 현실 세상에서 TDD는 가능하지 않다거나 효율이 너무 떨어져 쓸모없다는 주장은 지겹도록 들어왔지만 여전히 안타깝다. 나는 2018년에 이런 답답함을 조금이라도 풀어보고자 페이스북을 통해 5개월간 약 60명을 대상으로 'TDD 참관'이라는 행사를 진행했다.

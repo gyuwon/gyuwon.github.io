@@ -3,6 +3,9 @@ layout: post
 title:  MVVM 아키텍처 패턴
 date:   2017-03-05 15:22:00 +0900
 categories: blog
+permalink: /blog/mvvm-architectural-pattern/
+redirect_from:
+  - /blog/2017/03/05/mvvm-architectural-pattern.html
 ---
 
 MVVM(Model/View/ViewModel) 패턴은 UI를 가지는 응용프로그램을 위한 [아키텍처 패턴(architectural pattern)](https://en.wikipedia.org/wiki/Architectural_pattern)이다. MVVM 패턴은 MVC(Model/View/Controller) 패턴의 변형으로 뷰의 추상화를 만드는 것이 핵심이다. 뷰의 추상화는 재사용할 수 있고(reusable) 테스트하기 쉽다(testable). 뷰의 추상화를 통해 응용프로그램 구조는 단순해지고, 이상적으로, 시각 디자인과 표현 논리를 독립적으로 구현할 수 있다.

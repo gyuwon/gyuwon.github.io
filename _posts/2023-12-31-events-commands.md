@@ -3,6 +3,9 @@ layout: post
 title:  이벤트와 명령
 date:   2023-12-31 13:00:00 +0900
 categories: blog
+permalink: /blog/events-commands/
+redirect_from:
+  - /blog/2023/12/31/events-commands.html
 ---
 
 자주 사용되는 중개(brokered) 메시지 유형으로 이벤트(events)와 명령(commands)이 있다. 두 메시지 유형은 구현의 일부가 비슷할 수 있지만 일반적으로 서로 다른 특징을 갖는다.

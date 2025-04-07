@@ -3,6 +3,9 @@ layout: post
 title:  코딩 시험과 TDD
 date:   2019-01-05 01:00:00 +0900
 categories: blog
+permalink: /blog/coding-test-and-tdd/
+redirect_from:
+  - /blog/2019/01/04/coding-test-and-tdd.html
 ---
 
 구직 과정에 코딩 시험이 있었다. 면접관의 컴퓨터와 응사자의 컴퓨터가 코딩 시험 도구로 연결되어 면접관이 응시자의 코딩을 지켜보거나 개입할 수 있는 환경이었다. 어떤 문제의 답 코드를 쓰다 10줄 이상이 되니 자신감이 떨어져 TDD를 사용하기로 했다. 여기서 나는 흥미로운 경험을 했다.

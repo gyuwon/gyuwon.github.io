@@ -3,6 +3,9 @@ layout: post
 title:  정말로 테스트 대역이 필요한가
 date:   2020-05-10 22:30:00 +0900
 categories: blog
+permalink: /blog/do-you-really-need-test-doubles/
+redirect_from:
+  - /blog/2020/05/10/do-you-really-need-test-doubles.html
 ---
 
 얼마전 주니어 동료가 내 코드를 리뷰하며 이런 질문을 했다.

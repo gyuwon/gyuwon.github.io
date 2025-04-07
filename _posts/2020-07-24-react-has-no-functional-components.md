@@ -3,6 +3,9 @@ layout: post
 title: React에는 '함수형 컴포넌트'가 없다
 date: 2020-07-24 12:00:00 +0900
 categories: blog
+permalink: /blog/react-has-no-functional-components/
+redirect_from:
+  - /blog/2020/07/24/react-has-no-functional-components.html
 ---
 
 이 글이 작성되는 시점에 React에는 '함수형(functional) 컴포넌트'가 없다. 내가 미쳤다고? 훗. 바로 증명하겠다. 지금 당장 [공식 사이트](https://reactjs.org)에 들어가서 'functional component'라는 말이 나오는지 눈씻고 찾아보라. [한국어 사이트](https://ko.reactjs.org/)에 들어가서 '함수형 컴포넌트'라는 말도 찾아보라. 검색 기능도 제공하니 몇 초면 내가 제정신이란 걸 알게 될거다. React는 함수형 컴포넌트란 걸 제공하지 않는다.
