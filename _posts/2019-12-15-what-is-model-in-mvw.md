@@ -8,6 +8,8 @@ redirect_from:
   - /blog/2019/12/15/what-is-model-in-mvw.html
 ---
 
+> *이 글이 참조한 두 문서의 링크가 현재 정상적으로 동작하지 않는다. 대신 [여기](http://urn.nb.no/URN:NBN:no-14314)에 방문하면 두 문서의 내용이 모두 담긴 파일을 확인할 수 있다.*
+
 두괄식으로 결론부터 제시한다.
 
 > "Models represent knowledge." - [MODELS - VIEWS - CONTROLLERS, 1979](https://heim.ifi.uio.no/~trygver/1979/mvc-2/1979-12-MVC.pdf)
