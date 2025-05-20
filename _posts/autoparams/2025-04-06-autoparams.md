@@ -38,17 +38,4 @@ void testMethod(int a, int b) {
 }
 ```
 
-`@AutoSource` 애노테이션은 여전히 기존 기능을 그대로 제공하지만, 10.0.0 버전 이후로는 `@Repeat`와 조합해서 테스트를 반복 실행하는 것이 주된 역할이다.
-
-```java
-@ParameterizedTest
-@AutoSource
-@Repeat(10)
-void testMethod(int a, int b) {
-    Calculator sut = new Calculator();
-    int actual = sut.add(a, b);
-    assertEquals(a + b, actual);
-}
-```
-
-그리고 특별한 소스를 통한 데이터와 AutoParams가 생성한 데이터를 조합해서 테스트 메서드에 전달해야 하는 경우, `@ParameterizedTest` 메서드에 사용할 수 있는 `@ValueAutoSource`, `@CsvAutoSource`와 같은 애노테이션도 그대로 변경 없이 제공된다.
+`@AutoParams` 애노테이션이 더 간단하지만, 하위 호환을 위해 `@AutoSource` 애노테이션은 여전히 기존 기능을 그대로 제공한다. 또한, 특별한 소스를 통한 데이터와 AutoParams가 생성한 데이터를 조합해서 테스트 메서드에 전달해야 하는 경우를 위해, `@ParameterizedTest` 메서드에 사용할 수 있는 `@ValueAutoSource`, `@CsvAutoSource`와 같은 애노테이션도 변경 없이 그대로 제공된다.
