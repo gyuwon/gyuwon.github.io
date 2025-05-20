@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+
+// Add custom styles below
+.top-banner {
+  background: linear-gradient(to right, #5ca035, #6db33f, #7bc148); // Green gradient based on #6db33f
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  transition: background 0.5s ease;
+}
+
+.top-banner:hover {
+  background: linear-gradient(to right, #629e3b, #75c144, #81cb4e); // Slightly lighter gradient for hover effect
+}
+
+.top-banner a {
+  color: #ffffff; // White text for better contrast on green
+  text-decoration: underline;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+}
+
+.top-banner a:hover {
+  color: #ffffff; // Keep the same text color
+  text-decoration: underline; // Always show underline
+}
