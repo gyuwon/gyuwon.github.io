@@ -8,9 +8,15 @@ permalink: /about/
 
 ## 활동
 
+### 인프런 강의
+
+- [스프링 부트 TDD - 입문부터 실전까지 정확하게](https://inf.run/9x4sw)
+
+---
+
 ### 패스트캠퍼스 the RED 강의
 
-[현실 세상의 TDD: 안정감을 주는 코드 작성 방법](https://www.fastcampus.co.kr/dev_red_ygw)
+- [현실 세상의 TDD: 안정감을 주는 코드 작성 방법](https://www.fastcampus.co.kr/dev_red_ygw)
 
 ---
 
