@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "@Size 애노테이션을 사용한 컬렉션 크기 지정"
+title:  "@Size 애노테이션 사용 컬렉션 크기 지정"
 date:   2025-05-17 12:30:00 +0900
 categories: [blog, AutoParams]
 permalink: /autoparams/collection-size/
