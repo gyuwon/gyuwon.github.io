@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">    {% if page.path == 'autoparams.html' %}
+    <h1 class="post-title"><img src="{{ '/assets/AutoParams.svg' | relative_url }}" alt="AutoParams logo" style="height: 1.5em; vertical-align: middle; margin-right:0.3em;">{{ page.title | escape }}</h1>
+    {% else %}
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% endif %}
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
