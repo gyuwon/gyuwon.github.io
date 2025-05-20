@@ -3,7 +3,6 @@
 
 @import "minima";
 
-// Add custom styles below
 .top-banner {
   background: linear-gradient(to right, #5ca035, #6db33f, #7bc148); // Green gradient based on #6db33f
   padding: 10px 0;
@@ -17,7 +16,7 @@
 }
 
 .top-banner a {
-  color: #ffffff; // White text for better contrast on green
+  color: #ffffff;
   text-decoration: underline;
   font-size: 1.1em;
   display: block;
@@ -25,6 +24,34 @@
 }
 
 .top-banner a:hover {
-  color: #ffffff; // Keep the same text color
-  text-decoration: underline; // Always show underline
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    margin-top: 15px !important;
+    width: 100% !important;
+    text-align: left !important;
+    z-index: auto !important;
+    border: none !important;
+    background-color: transparent !important;
+    right: auto !important;
+    top: auto !important;
+  }
+
+  .site-nav .trigger {
+    display: block !important;
+    padding-bottom: 0 !important;
+  }
+
+  .site-nav .page-link {
+    display: inline-block !important;
+    margin-left: 0 !important;
+    margin-right: 20px !important;
+    padding: 0 !important;
+  }
 }
