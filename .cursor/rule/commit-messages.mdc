@@ -1,0 +1,51 @@
+---
+description: Creating Git commits
+globs: 
+alwaysApply: false
+---
+# Commit Message Rules
+
+## Language
+- Use English for all commit messages
+- Use present tense ("Add feature" not "Added feature")
+- Use imperative mood ("Move cursor" not "Moves cursor")
+
+## Message Structure
+- Subject line (50 chars or less)
+- Blank line
+- Body (72 chars per line)
+- Blank line
+- Footer (optional)
+
+## Subject Line
+- Maximum 50 characters
+- Capitalize first letter
+- No period at the end
+- Use imperative mood
+- No prefixes like "feat:", "fix:", "chore:", etc.
+- Start with a verb (Add, Fix, Update, Remove, etc.)
+
+## Message Body
+- Wrap at 72 characters
+- Use to explain what and why vs. how
+- Include motivation for change
+- Contrast with previous behavior
+
+## Examples
+Good:
+```
+Add user authentication system
+
+- Implement JWT-based authentication
+- Add login and registration endpoints
+- Create user model and migration
+- Set up password hashing with bcrypt
+```
+
+Bad:
+```
+feat: add auth
+
+changed some code and fixed the bug that was causing problems
+when users tried to do things it didn't work but now it does
+```
