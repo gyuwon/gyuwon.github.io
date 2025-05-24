@@ -20,3 +20,9 @@ header_pages:
   - about.md
 
 google_analytics: UA-135516945-1
+
+comments:
+  utterances:
+    repo: gyuwon/gyuwon.github.io
+    issue_term: pathname
+    theme: github-light
